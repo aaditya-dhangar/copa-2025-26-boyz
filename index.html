@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COPA 2025–26 BOYZ | Golden Hour Memories</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Background Elements -->
+    <div class="grain-overlay"></div>
+    <div class="glow-bg top-right"></div>
+    <div class="glow-bg bottom-left"></div>
+
+    <!-- Navigation -->
+    <nav class="luxury-nav">
+        <div class="logo">COPA <span>BOYZ</span></div>
+        <div class="menu-btn"><i class="fas fa-bars"></i></div>
+    </nav>
+
+    <!-- 1. HERO SECTION -->
+    <section id="hero" class="hero-section">
+        <div class="particles" id="particles-js"></div>
+        <div class="camera-flash"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="word">COPA</span> 
+                <span class="word">2025–26</span> 
+                <span class="word accent-glow">BOYZ</span>
+            </h1>
+            <p class="hero-subtitle">“Practical se zyada yaad toh yeh log rahenge ❤️”</p>
+            <div class="hero-buttons">
+                <a href="#timeline" class="btn primary-btn"><i class="fas fa-rocket"></i> Enter Memories</a>
+                <a href="#members" class="btn secondary-btn"><i class="fas fa-users"></i> Explore Batch</a>
+                <a href="#reel" class="btn text-btn"><i class="fas fa-play-circle"></i> Watch Farewell Reel</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="line"></div>
+        </div>
+    </section>
+
+    <!-- 2. MEMORY TIMELINE -->
+    <section id="timeline" class="timeline-section">
+        <div class="container">
+            <h2 class="section-title">Memory <span>Timeline</span></h2>
+            <div class="timeline-wrapper">
+                <div class="timeline-line"></div>
+                <div class="timeline-items">
+                    <div class="t-item">
+                        <div class="t-dot"></div>
+                        <div class="t-card glass-panel">
+                            <div class="t-icon">🌄</div>
+                            <h3>Trip Memories</h3>
+                            <p>Trip vibes and unforgettable moments 📸</p>
+                        </div>
+                    </div>
+
+                    <div class="t-item">
+                        <div class="t-dot"></div>
+                        <div class="t-card glass-panel">
+                            <div class="t-icon">☕</div>
+                            <h3>Canteen Talks</h3>
+                            <p>Cold drinks, samosas, and endless bakchodi 😂</p>
+                        </div>
+                    </div>
+
+                    <div class="t-item">
+                        <div class="t-dot"></div>
+                        <div class="t-card glass-panel">
+                            <div class="t-icon">🤝</div>
+                            <h3>Brotherhood Moments</h3>
+                            <p>Random talks that became lifelong memories ❤️</p>
+                        </div>
+                    </div>
+
+                    <div class="t-item">
+                        <div class="t-dot"></div>
+                        <div class="t-card glass-panel">
+                            <div class="t-icon">📚</div>
+                            <h3>Theory Escape Plans</h3>
+                            <p>Mission successful... mostly 😭</p>
+                        </div>
+                    </div>
+
+                    <div class="t-item">
+                        <div class="t-dot"></div>
+                        <div class="t-card glass-panel">
+                            <div class="t-icon">🎬</div>
+                            <h3>Random Chaos</h3>
+                            <p>Every day felt like a movie scene ✨</p>
+                        </div>
+                    </div>
+
+                    <div class="t-item">
+                        <div class="t-dot"></div>
+                        <div class="t-card glass-panel">
+                            <div class="t-icon">❤️</div>
+                            <h3>COPA Forever</h3>
+                            <p>Batch khatam hua… connection nahi ❤️</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 4. BATCH MEMBERS GRID -->
+    <section id="members" class="members-section">
+        <div class="container">
+            <h2 class="section-title">The <span>Legends</span></h2>
+            <div class="batch-grid">
+                <!-- Members generated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. TEACHER TRIBUTE -->
+    <section id="tribute" class="tribute-section">
+        <div class="container">
+            <div class="tribute-card glass-panel luxury-gold-border text-center">
+                <div class="spotlight"></div>
+                <div class="tribute-text-only">
+                    <h2 class="tribute-sir-name">❤️ S.R KOLI SIR ❤️</h2>
+                    <p class="tribute-sir-quote">“Sir ne sirf coding nahi, life bhi sikhayi ❤️”</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. PHOTO GALLERY -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Captured <span>Moments</span></h2>
+            
+            <!-- Dynamic Gallery Controls -->
+            <div class="gallery-search-container">
+                <div class="search-wrapper glass-panel">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="gallery-search" placeholder="Search memories (e.g. canteen, squad, farewell)...">
+                    <button id="search-clear-btn"><i class="fas fa-times"></i></button>
+                </div>
+                <div class="memories-counter-glow">
+                    <span id="memories-count">0</span> Memories Loaded
+                </div>
+            </div>
+
+            <div class="masonry-gallery" id="premium-gallery-wall">
+                <!-- Gallery items dynamically generated by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. INSIDE JOKES & 8. CONFESSION WALL -->
+    <section id="fun" class="fun-section">
+        <div class="container split-layout">
+            <div class="jokes-col">
+                <h2 class="section-title align-left">Inside <span>Jokes</span> 😂</h2>
+                <div class="jokes-container">
+                    <div class="joke-card glass-panel">“KOI NAAM MAT BATANA 😭”</div>
+                    <div class="joke-card glass-panel">“DAELY DARY COMPLETE KIS KI HAI?”</div>
+                    <div class="joke-card glass-panel">“Net nahi chal raha sir 😂”</div>
+                    <div class="joke-card glass-panel">“THEROY ME BETH NA HAI AAJ 😭”</div>
+                    <div class="joke-card glass-panel">“Pendrive kon le gaya?”</div>
+                    <div class="joke-card glass-panel">“Aaj practical submit hai kya?”</div>
+                    <div class="joke-card glass-panel">“Proxy laga de bhai 😭”</div>
+                </div>
+            </div>
+            <div class="confessions-col">
+                <h2 class="section-title align-left">Confession <span>Wall</span> 💌</h2>
+                <div class="confession-stack">
+                    <div class="confess-card glass-panel">
+                        <p>“COPA became family ❤️”</p>
+                    </div>
+                    <div class="confess-card glass-panel">
+                        <p>“Exam se zyada darr MISS kya punish karegi uska tha 😭”</p>
+                    </div>
+                    <div class="confess-card glass-panel">
+                        <p>“Lab ke moments kabhi bhool nahi sakte 💻”</p>
+                    </div>
+                    <div class="confess-card glass-panel">
+                        <p>“Bunk karne ke plans legendary the 😂”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- 10. FAREWELL REEL -->
+    <section id="reel" class="reel-section">
+        <div class="container">
+            <div class="reel-container glass-panel">
+                <div class="reel-video">
+                    <video id="farewell-video" src="🎥_PART_SEC__PROBLEM_.mp4" preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block;"></video>
+                    <div class="play-btn-large"><i class="fas fa-play"></i></div>
+                </div>
+                <div class="reel-overlay">
+                    <h2>One Last Time...</h2>
+                    <p>Relive the chaos, the laughter, and the brotherhood.</p>
+                </div>
+                <!-- Custom elegant video controls -->
+                <div class="video-controls-wrapper glass-panel">
+                    <div class="video-progress-container">
+                        <div class="video-progress-bar"></div>
+                    </div>
+                    <div class="video-controls-row">
+                        <div class="controls-left">
+                            <button class="control-btn play-pause-btn" title="Play/Pause"><i class="fas fa-play"></i></button>
+                            <button class="control-btn skip-back-btn" title="Rewind 10s"><i class="fas fa-undo"></i></button>
+                            <button class="control-btn skip-forward-btn" title="Forward 10s"><i class="fas fa-redo"></i></button>
+                            <div class="volume-container">
+                                <button class="control-btn volume-btn" title="Mute/Unmute"><i class="fas fa-volume-up"></i></button>
+                                <input type="range" class="volume-slider" min="0" max="1" step="0.05" value="1">
+                            </div>
+                            <div class="video-time">0:00 / 0:00</div>
+                        </div>
+                        <div class="controls-right">
+                            <button class="control-btn fullscreen-btn" title="Fullscreen"><i class="fas fa-expand"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. FOOTER -->
+    <footer class="luxury-footer">
+        <div class="container text-center">
+            <div class="footer-heart"><i class="fas fa-heart"></i></div>
+            <h2 class="footer-quote">“Batch khatam ho sakta hai… memories nahi ❤️”</h2>
+            <div class="footer-credit">
+                <span class="credit-by">Created By ❤️</span>
+                <span class="credit-name">Aditya Dhangar</span>
+                <span class="credit-year">2026</span>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-btn"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p class="copyright">COPA 2025–26 BOYZ • Forever Legends</p>
+        </div>
+    </footer>
+
+    <!-- Cinematic Lightbox Modal -->
+    <div id="gallery-modal" class="gallery-modal">
+        <span class="modal-close" id="modal-close">&times;</span>
+        <div class="modal-content-wrapper">
+            <span class="modal-nav-btn prev" id="modal-prev"><i class="fas fa-chevron-left"></i></span>
+            <div class="modal-image-container">
+                <img id="modal-img" src="" alt="Cinematic Memory">
+                <div class="modal-caption-bar glass-panel">
+                    <h3 id="modal-caption">Caption</h3>
+                    <p id="modal-counter">1 of 1</p>
+                </div>
+            </div>
+            <span class="modal-nav-btn next" id="modal-next"><i class="fas fa-chevron-right"></i></span>
+        </div>
+    </div>
+    <!-- BGM Control Button -->
+    <div id="bgm-control" class="bgm-control-btn glass-panel" title="Toggle Background Music">
+        <div class="music-waves">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <i class="fas fa-volume-mute mute-icon"></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.33/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
